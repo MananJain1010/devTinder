@@ -1,80 +1,85 @@
 DevTinder
 
-DevTinder is a MERN (MongoDB, Express, React, Node.js) based platform inspired by Tinder — built to help developers connect, chat, send connection requests, and grow their tech network.
+DevTinder is a MERN-based platform inspired by Tinder, built to help developers connect, chat, and grow their tech network by sending and managing connection requests.
 
 
-Tech Stack ->
+Tech Stack
 
-Backend 
+Backend
 ● Node.js
 ● Express.js
 ● MongoDB (Mongoose)
 ● JWT Authentication
 ● Socket.io (Real-time Chat)
 
-Frontend 
-● React.js (Vite)
+Frontend
+● React (Vite)
 ● Redux Toolkit
 ● Tailwind CSS
 ● Socket.io Client
 
 
-Folder Structure->
+Folder Structure
+
 devTinder
- ● backend # Node.js REST API
- ● frontend # React UI (Vite)
+● backend   (REST API - Node.js)
+● frontend  (UI - React + Vite)
 
 
+Backend Setup
 
-Backend Setup ->
-
-```bash
 cd backend
 npm install
 npm start
 
+Backend runs at: http://localhost:7777
 
-Backend runs on: http://localhost:7777
 
-Frontend Setup ->
+Frontend Setup
+
 cd frontend
 npm install
 npm run dev
 
+Frontend runs at: http://localhost:5173
 
-Frontend runs on: http://localhost:5173
 
-Environment Variables (Backend) ->
+Environment Variables (Backend)
 
-Create a .env file inside /backend containing:
+Create a file named .env inside /backend and add:
 
 MONGO_URL=<your_mongo_connection_uri>
 JWT_SECRET=<your_jwt_secret>
 
-Features ->
+
+Features
+
 ● User Sign-up / Login
 ● JWT Authentication
-● Send/Accept/Reject Connection Requests
 ● Developer Feed
+● Send / Accept / Reject Connection Requests
 ● Real-time Chat (Socket.io)
-● Edit Profile & Skills
+● Edit Profile and Skills
 ● View Connections
 
-Main Dependencies ->
-Backend
 
-●express
-●mongoose
-●jsonwebtoken
-●bcrypt
-●socket.io
+Main Dependencies
+
+Backend
+● express
+● mongoose
+● jsonwebtoken
+● bcrypt
+● socket.io
 
 Frontend
-●react
-●redux toolkit
-●socket.io-client
-●tailwindcss
+● react
+● redux toolkit
+● socket.io-client
+● tailwindcss
+
 
 Author
 
 Manan Jain
+
