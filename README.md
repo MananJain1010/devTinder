@@ -33,7 +33,7 @@ devTinder
 **Setup**
 ===========
 
-BACKEND
+**BACKEND**
 
 ```bash
 cd backend
@@ -43,14 +43,14 @@ npm start
 
 Backend runs at: http://localhost:7777
 
-**Environment Variables**
+Environment Variables
 
 Create a `.env` file inside `/backend` containing:
 
 MONGO_URL=<your_mongo_connection_uri>  
 JWT_SECRET=<your_jwt_secret>
 
-**Features**
+Features
 
 ● User Sign-up / Login  
 ● JWT Authentication  
@@ -60,7 +60,7 @@ JWT_SECRET=<your_jwt_secret>
 ● Edit Profile and Skills  
 ● View Connections
 
-**Dependencies**
+Dependencies
 
 ● express  
 ● mongoose  
@@ -68,10 +68,11 @@ JWT_SECRET=<your_jwt_secret>
 ● bcrypt  
 ● socket.io
 
+
+
+
 **FRONTEND**
 ============
-
-**Setup**
 
 ```bash
 cd frontend
