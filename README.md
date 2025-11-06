@@ -33,7 +33,6 @@ devTinder
 **Setup**
 ===========
 
-**BACKEND**
 
 ```bash
 cd backend
@@ -71,8 +70,6 @@ Dependencies
 
 
 
-**FRONTEND**
-============
 
 ```bash
 cd frontend
