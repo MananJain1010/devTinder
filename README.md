@@ -33,7 +33,7 @@ devTinder
 **Setup**
 ===========
 
-**BACKEND**
+BACKEND
 
 ```bash
 cd backend
