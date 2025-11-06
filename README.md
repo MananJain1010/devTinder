@@ -33,10 +33,13 @@ devTinder
 **BACKEND**
 ===========
 
+**Setup**
+
 ```bash
 cd backend
 npm install
 npm start
+
 
 Backend runs at: http://localhost:7777
 
@@ -68,6 +71,8 @@ JWT_SECRET=<your_jwt_secret>
 **FRONTEND**
 ============
 
+**Setup**
+
 ```bash
 cd frontend
 npm install
@@ -77,7 +82,7 @@ npm run dev
 
 Frontend runs at: http://localhost:5173
 
-**Dependencies**
+Dependencies
 
 ● react
 ● redux toolkit
