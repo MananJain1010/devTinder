@@ -30,10 +30,10 @@ devTinder
 ● backend (REST API - Node.js)  
 ● frontend (UI - React + Vite)
 
-**BACKEND**
+**Setup**
 ===========
 
-**Setup**
+**BACKEND**
 
 ```bash
 cd backend
